@@ -680,6 +680,12 @@
                     <span class="nav-icon">🚚</span>
                     Supplier
                 </a>
+                <div class="nav-label">Manajemen</div>
+
+                <a href="{{ route('users.index') }}" class="nav-link">
+                    <span class="nav-icon">👥</span>
+                    Manajemen Pengguna
+                </a>
             @endif
 
             
